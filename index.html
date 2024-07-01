@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="reset.css"rel="stylesheet" >
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header id="logo-header">
+        <img src="img/image.png" alt="logo-alura">
+    </header>
+
+    <div class="contenido">
+        <ul class="productos__container" alt="lista de productos" data-lista>
+            <li class="productos__item"></li>
+        </ul>
+    
+        </section>
+        
+        <h1 id="titulo">MIS PRODUCTOS</h1>
+
+        <section class="formulario__datos" ingreso__datos>
+            <form action="" method="post">
+                <fieldset>
+                    <h2>Agregar productos</h2>
+                    <input type="text" placeholder="nombre..."id="nombre" name="nombre" data-nombre required> <br>
+                    <input type="number" placeholder="precio..." id="precio" name="precio" step="0.01" data-precio required> <br>
+                    <input type="text" placeholder="imagen"id="imagen" name="imagen" data-url required> <br>
+                    <input class="formulario__boton" type="submit" value="enviar">
+                    <input type="" value="limpiar">
+                </fieldset>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <img src="img/image.png" alt="logo-alura">
+        <h2 id="Malek">Desarollado por Malek</h2>
+        <h2 id="copyright">Alura Latam- 2024</h2>
+    </footer>
+    <script src="./js/mostrarProductos.js" type="module"></script>
+    <script src="./crearProducto.js" type="module"></script>
+    
+
+
+    </body>
+
+
+</html>
